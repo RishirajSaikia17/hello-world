@@ -4,6 +4,7 @@
 void main()
 {
     int a[10][10], b[10][10], c[10][10], m1, n1, m2, n2, i, j, k, sum=0;
+    //enter rows and columns and scan the elements of first matrix
     printf("\nEnter the rows and columns of the first matrix: ");
     scanf("%d %d", &m1, &n1);
     printf("\nEnter the elements of the first matrix: \n");
@@ -14,6 +15,7 @@ void main()
             scanf("%d", &a[i][j]);
         }
     }
+    //enter rows and columns and scan the elements of second matrix
     printf("\nEnter the rows and columns of the second matrix: ");
     scanf("%d %d", &m2, &n2);
     printf("\nEnter the elements of the second matrix: \n");
@@ -24,7 +26,8 @@ void main()
             scanf("%d", &b[i][j]);
         }
     }
-    if(n1 == m2)
+
+    if(n1 == m2) //scan the elements of the resultant matrix
     {
         for(i=0; i<m1; i++)
         {

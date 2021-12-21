@@ -18,27 +18,26 @@ void main()
         scanf("%d", &first);
         printf("\nEnter the second number: ");
         scanf("%d", &second);
-        if(operator == '+')
+        switch(operator)
         {
-            answer = first + second;
-            printf("\nSum: %d\n", answer);
-        }
-        else if(operator == '-')
-        {
-            answer = first - second;
-            printf("\nDifference: %d\n", answer);
-        }
-        else if(operator == '*')
-        {
-            answer = first * second;
-            printf("\nProduct: %d\n", answer);
-        }
-        else if(operator == '/')
-        {
-            answer = first / second;
-            remainder = first % second;
-            printf("\nQuotient: %d", answer);
-            printf("\nRemainder: %d\n", remainder);
+                case'+':
+                        answer = first + second;
+                        printf("\nSum: %d\n", answer);
+                        break;
+                case'-':
+                        answer = first - second;
+                        printf("\nDifference: %d\n", answer);
+                        break;
+                case'*':
+                        answer = first * second;
+                        printf("\nProduct: %d\n", answer);
+                        break;
+                case'/':
+                        answer = first / second;
+                        remainder = first % second;
+                        printf("\nQuotient: %d", answer);
+                        printf("\nRemainder: %d\n", remainder);
+                        break;
         }
     }
     getch();
