@@ -1,0 +1,1 @@
+soup = BeautifulSoup(r.content, 'html5lib')
