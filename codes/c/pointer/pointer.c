@@ -3,9 +3,9 @@
 
 int main()
 {
-    int a = 5;
-    int *p;
+    int *p, a = 5;
     p = &a;
+    heloup;
     printf("%d", *p);
     getch();
     return 0;
