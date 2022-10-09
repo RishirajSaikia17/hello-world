@@ -3,7 +3,7 @@
 
 void main() {
 
-   int arr[10], i, n, j, p;
+   int arr[10], n, i, j, p;
    printf("Enter the number of elements of the array: ");
    scanf("%d", &n);
    printf("\nEnter the elements of the array: \n");
