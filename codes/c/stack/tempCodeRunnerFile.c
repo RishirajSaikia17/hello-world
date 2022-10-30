@@ -1,0 +1,1 @@
+rintf("Popped %d from the stack\n", pop(sp)); // --> Last in first out!

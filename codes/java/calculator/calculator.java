@@ -1,5 +1,8 @@
-package java.calculator;
+import java.util.Scanner;
 
-public class calculator {
-    
+class Calculator() {
+    public static void main() {
+        int a, b, sum;
+        
+    }
 }
