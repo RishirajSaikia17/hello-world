@@ -1,25 +1,15 @@
 #include<stdio.h>
 
-void main()
-{
-    int a, b, x, y;
-    a = 20;
-    b = 10;
-    printf("\nThe product is %d", x);
-    printf("\nThe quotient is %d", y);
+int sum(int a, int b) {
+    int c;
+    c = a + b;
+    return c;
 }
 
-int multi(int a, int b)
-{
-    int x;
-    x = a * b;
-    return (x);
-}
-
-int div(int a, int b)
-{
-    int y;
-    y = a / b;
-    return (y);
+void main() {
+    int n1, n2;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &n1, &n2);
+    printf("Sum: %d", sum(n1 ,n2));
 }
 
