@@ -9,5 +9,5 @@ func main() {
 	fmt.Print("Enter the second number: ")
 	fmt.Scan(&b)
 	c = a + b
-	fmt.Print("Sum: ", c)
+	fmt.Println("Sum:", c)
 }

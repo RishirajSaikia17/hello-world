@@ -1,1 +1,0 @@
-rating = soup.find('div',attrs={'class':'_4rR01T'})

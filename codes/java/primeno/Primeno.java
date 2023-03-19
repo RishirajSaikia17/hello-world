@@ -10,7 +10,7 @@ class Primeno {
         if(n == 1) {
             System.out.println("The smallest prime number is 2.");
         }
-        for(i=2; i<n; i++) {
+        for(i=2; i<=n; i++) {
             if(n%2 == 0) {
                 System.out.println("The number is not prime.");
                 break;

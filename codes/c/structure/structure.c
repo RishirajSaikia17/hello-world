@@ -1,16 +1,13 @@
 #include<stdio.h>
 
-struct val
-{
-    int a, b;
+struct car {
+    int num, year;
 };
 
-void main()
-{
-    struct val s;
-    s.a = 10;
-    s.b = 20;
-    printf("\n%d", s.a);
-    printf("\n%d", s.b);
-    printf("\n\n");
+int main() {
+    struct car a;
+    a.num = 5;
+    a.year = 2006;
+    printf("Number = %d \nYear = %d", a.num, a.year);
+    return 0;
 }
