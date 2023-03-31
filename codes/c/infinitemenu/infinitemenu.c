@@ -3,6 +3,7 @@
 int main() {
     int choice;
     while(1) {
+        printf("\nEnter your choice:- \n");
         printf("1. Option A\n");
         printf("2. Option B\n");
         printf("3. Option C\n");
@@ -24,7 +25,7 @@ int main() {
             printf("Exiting program...\n\n");
             return 0;
             default:
-            printf("Invalid choice.");
+            printf("Invalid choice.\n");
             break;
         }
     }
