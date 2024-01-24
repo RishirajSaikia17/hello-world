@@ -8,7 +8,7 @@ int main()
   scanf("%d", &num);
  
   printf("Natural Numbers with difference 2 ranging between %d to 1 are: \n", num);
-  for (i = num; i >= 0; i-=2)
+  for (i=num; i>0; i-=2)
   {
     printf("%d ", i);
   }

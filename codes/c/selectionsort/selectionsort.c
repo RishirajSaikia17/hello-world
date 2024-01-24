@@ -1,12 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
 
 void main()
 {
     int arr[50], n, i, j, temp;
     printf("Enter the size of the array: ");
     scanf("%d", &n);
-    printf("\nEnter the elements of the array: ");
+    printf("Enter the elements of the array: ");
     for(i=0; i<n; i++)
     {
         scanf("%d", &arr[i]);
@@ -23,11 +22,9 @@ void main()
             }
         }
     }
-    printf("\nThe sorted array is: \n\n");
+    printf("The sorted array is: ");
     for(i=0; i<n; i++)
     {
-        printf("\t%d", arr[i]);
+        printf("%d ", arr[i]);
     }
-    printf("\n\n");
-    getch();
 }

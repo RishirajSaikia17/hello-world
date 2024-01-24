@@ -23,10 +23,10 @@ void main()
     }
     if(flag ==1)
     {
-        printf("The element is in the list and it's position is %d\n\n", pos+1);
+        printf("The element is in the list and it's position is %d\n", pos+1);
     }
     else
     {
-        printf("The element is not found.\n\n");
+        printf("The element is not found.\n");
     }
 }
