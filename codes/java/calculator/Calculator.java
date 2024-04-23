@@ -14,21 +14,14 @@ class Calculator {
         sc.close();
         switch(operator)
         {
-            case '+':
-            result = a + b;
-            break;
-            case '-':
-            result = a - b;
-            break;
-            case '*':
-            result = a * b;
-            break;
-            case '/':
-            result = a / b;
-            break;
-            default:
-            System.out.println("Invalid operator.");
-            return;
+            case '+' -> result = a + b;
+            case '-' -> result = a - b;
+            case '*' -> result = a * b;
+            case '/' -> result = a / b;
+            default -> {
+                System.out.println("Invalid operator.");
+                return;
+            }
         }
         System.out.println(a + " " + operator + " " + b + " = " + result);
     }

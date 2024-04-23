@@ -19,4 +19,5 @@ void main()
     }
     printf("\n\n");
     free(p);
+    p = NULL;
 }
