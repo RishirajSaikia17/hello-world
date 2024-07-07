@@ -13,15 +13,15 @@ int main() {
     for(i=0; i<len; i++) {
         if(data[i] == '1') {
             count++;
-            stuffData[j++] = data[i];
+            stuffedData[j++] = data[i];
         } else {
             count = 0;
-            stuffData[j++] = data[i];
+            stuffedData[j++] = data[i];
         }
 
         if(count == 5) {
             count =0;
-            stuffData[j++] = '0';
+            stuffedData[j++] = '0';
         }
     }
     stuffedData[j++] = '\0';
