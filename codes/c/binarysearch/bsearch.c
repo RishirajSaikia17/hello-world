@@ -2,13 +2,12 @@
 
 void main()
 {
-  int i, beg, end, mid, n, search, arr[10];
+  int arr[10], n, i, search, beg, end, mid;
   printf("Enter number of elements: ");
   scanf("%d", &n);
   printf("Enter %d Elements: ", n);
   for (i = 0; i < n; i++)
-    scanf("%d", &arr[i]);
-
+  scanf("%d", &arr[i]);
   printf("Enter value to find: ");
   scanf("%d", &search);
 
